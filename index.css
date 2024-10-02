@@ -1,0 +1,45 @@
+body{
+    
+   
+    background-repeat:no-repeat;
+    background-position: center,top;
+    background-size: cover; 
+    font-family: abril;
+}
+
+.login {
+    background-color: rgb(240, 240, 237);
+    width: 200px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+
+   
+    
+}
+
+img{
+    width: 40px;
+    height: auto;
+}
+
+H3{
+    text-align: center;
+    color: rgb(86, 73, 99);
+    
+   
+}
+
+input {
+ margin: 5%;
+ background-color: rgb(255, 255, 255);
+ border: none;
+ padding: 1%;
+ border-radius: 10px;
+ border-bottom: 10px solid  rgb(189, 178, 199);
+ 
+
+.opcion-alternativa{
+    
+}
+
