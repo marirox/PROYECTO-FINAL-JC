@@ -1,45 +1,51 @@
-body{
-    
-   
-    background-repeat:no-repeat;
-    background-position: center,top;
-    background-size: cover; 
-    font-family: abril;
+body {
+    font-family: serif;
+   color: rgb(212, 24, 24);
+   font-size: 30px;
+  background-image: url(doc/img/img\ de\ inicio\ .png);
+  background-repeat:no-repeat;
+ background-position: center.top;
+ background-size:cover; 
+ margin: 0px;
 }
 
-.login {
-    background-color: rgb(240, 240, 237);
+.formulario {
+background-color: rgba(255, 255, 255, 0.8); 
+backdrop-filter:blur(10px);
+width: 400px;
+text-align:center;
+margin: auto;
+margin-top: 100px;
+padding: 5px;
+border-radius: 10px;
+height: 500px;
+
+}
+
+.formulario-inpu{
+    margin: 10px;
+    
+   
+}
+
+input{
+   padding: 10px;
+   width: 350px;
+   font-size: 20px; font-family:Georgia, 'Times New Roman', Times, serif;
+   border-radius: 10px;
+   background-color: rgba(255, 255, 255, 0);
+   border-color: rgb(206, 43, 43);
+  
+   
+}
+
+.boton{
+    border-radius: 10px;
+    width: 100px;
+    color: rgb(228, 32, 32);
+    background-color: rgb(255, 250, 250)
+}
+
+.logo-png{
     width: 200px;
-    height: auto;
-    margin: auto;
-    padding: 10px;
-
-   
-    
 }
-
-img{
-    width: 40px;
-    height: auto;
-}
-
-H3{
-    text-align: center;
-    color: rgb(86, 73, 99);
-    
-   
-}
-
-input {
- margin: 5%;
- background-color: rgb(255, 255, 255);
- border: none;
- padding: 1%;
- border-radius: 10px;
- border-bottom: 10px solid  rgb(189, 178, 199);
- 
-
-.opcion-alternativa{
-    
-}
-
