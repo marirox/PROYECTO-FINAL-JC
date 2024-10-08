@@ -1,0 +1,46 @@
+body {
+ font-family: serif;
+ color: rgb(212, 24, 24);
+  font-size: 40px;
+  background-image: url(doc/img/imagen\ de\ regis.png);
+  background-repeat:no-repeat;
+  background-position: center.top;
+  background-size:cover; 
+ 
+
+}
+
+.formulario {
+background-color: rgba(255, 255, 255, 0.8); 
+width: 400px;
+height: 550px;
+text-align:center;
+margin: auto;
+margin-top: 100px;
+padding: 5px;
+border-radius: 20px;
+
+input{
+    margin: 10px;
+   padding: 10px;
+   width: 280px;
+   font-size: 20px; font-family:Georgia, 'Times New Roman', Times, serif;
+   border-radius: 8px;
+   border-color: rgb(209, 53, 53);
+   background-color: transparent;
+   
+   
+  
+   
+}
+
+.boton{
+    border-radius:30px;
+    width: 100px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(182, 9, 9);
+    padding: 5px;
+    
+}
+
