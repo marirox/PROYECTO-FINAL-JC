@@ -1,14 +1,13 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    background-color: #ffffff;
+     background-color: #ffffff;
     margin: 0;
-    margin: 0;
+  
     
     
 header {
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(22, 22, 22);
     color: hsl(0, 63%, 95%);
-    padding: 10px;
+    padding: 10px;}
 
 
 nav ul li {
@@ -18,14 +17,25 @@ nav ul li {
 }
     
 nav a {
-    color: #ffffffc4;
+    color: #eee7e7c4;
     text-decoration: none;
     font-size: 19px;
-    text-align: left;
-    
+    text-align: left;  
 }
 
 .fa-solid {
 color: rgb(202, 202, 231);
 margin: 0 0 0 500px;
 }
+
+.contenedor1{
+color: blue;
+margin: 10px;
+padding: 10px;
+width: 10%;
+}
+
+.contenededor1img{
+width: 30%;
+
+
