@@ -4,7 +4,7 @@ body {
   font-size: 40px;
   background-image: url(doc/img/registroo.png);
   background-repeat:no-repeat;
-  background-position: center.top;
+  background-position: center top;
   background-size:cover; 
  
 }
@@ -18,7 +18,7 @@ margin: auto;
 margin-top: 100px;
 padding: 5px;
 border-radius: 20px;
-
+}
 
 input{
     margin: 10px;
