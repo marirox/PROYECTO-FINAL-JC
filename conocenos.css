@@ -39,7 +39,7 @@
     box-shadow: 10px 10px 90px rgb(202, 200, 200);
     max-width: 80%; 
     border-radius: 10px;
-
+  }
   
   .contenedorletra, .contenedorletramision, .contenedorletravision {
     width: 45%;
