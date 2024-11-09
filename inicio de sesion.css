@@ -4,7 +4,7 @@ body {
   font-size: 40px;
   background-image: url(doc/img/img\ inicio.jpg);
   background-repeat:no-repeat;
-  background-position: center.top;
+  background-position: center top;
   background-size:cover; 
  width: 100%;
  margin: 0
