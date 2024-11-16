@@ -6,20 +6,19 @@
     <title>DULCANA</title>
   <link rel="stylesheet" href="inicio de sesion.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-</head>
+ <link rel="icon" href="doc/img/LOGOS.ico">
+ 
 </head>
 <body>
-  <ul ><a href="paginaprincipal.html"><i class="fa-solid fa-arrow-left"></i> </a></ul>
-   <DIV class="formulario">
-       <h3>Iniciar Sesión </h3>
-           <form >
-             <input  type="email" placeholder="Ingresa tu correo" required>
-             <input type ="password" placeholder="Ingresa tu contraseña"required>
-             <button  class="boton" type="submit">INGRESAR</button> <br>
-           <a href= "registro.html" class="registrarse">¿no tienes cuenta?</a>
-            </form>
-         </div>            
-         </body>
-         
+   <form class="formulario" id="logeo" >
+    <h3 >Iniciar Sesión </h3>
+       <input id="correologeo" type="email" placeholder="Ingresa tu correo" required>
+       <input  id="contralogeo" type ="password" placeholder="Ingresa tu contraseña"required>
+       <button  class="boton" type="submit">INGRESAR</button> <br>
+       
+       <a href= "registro.html" class="registrarse">¿no tienes cuenta?</a>
+   </form>
+   
+   <script src="logeo.js"></script>            
+</body>         
 </html>
