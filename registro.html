@@ -17,28 +17,22 @@
    <link rel="stylesheet" href="registro.css">
       
   </head>
-  <body>
-      <form action="" method="post" class="formulario">
+  <body class="form" >
       <h3>Registro </h3>
-     <div class="formulario">
-             <form >
-               <input  type="text" placeholder="Ingresa tus nombres" required>
-               <input  type ="text" placeholder="Ingresa tus apellidos"required>
-               <input  type ="email" placeholder="Ingresa tu correo"required>
-               <input  type ="password" placeholder="Ingresa tu contraseña"required>
-               
-               <input  type ="radio" name="sexo" required>hombre
-               <input  type ="radio" name="sexo" required>mujer
+      <form id="formulario">
+          <input  type="text" id="nombre" placeholder="Ingresa tus nombres" required>
+          <input  type ="text" id="apellido" placeholder="Ingresa tus apellidos"required>
+          <input  type ="email" id="correo" placeholder="Ingresa tu correo"required>
+          <input  type ="password" id="contrasena" placeholder="Ingresa tu contraseña"required>
+          <select  id="genero"required>
+              <option value=""select disabled>seleccionar su gener</option>
+              <option value="masculino">masculino</option>
+              <option value="femenino">femenino</option>
+          </select>
+          <button class="boton" type="submit">Registro</button>
+          <a class="registrarse" href="inicio de sesion.html">¿ya tienes cuenta?</a>
+      </form>
 
-               <a href=""></a>
-
-               <input class="boton" type="button" value="registrar">
-               
-             </form>
-           </div>            
-           </body>
-  </html>
-</nav>
-
+      <script src="registro.js"></script>           
 </body>
 </html>
