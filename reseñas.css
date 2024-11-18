@@ -1,37 +1,29 @@
-body{
-    background-color: #ffffff;
-   margin: 0;
- 
-   
-   
-header {
-   background-color: rgb(22, 22, 22);
-   color: hsl(0, 63%, 95%);
-   padding: 10px;}
-
-
-nav ul li {
-   display: inline;
-   margin: 0 15px;
-
-}
-   
-nav a {
-   color: #eee7e7c4;
-   text-decoration: none;
-   font-size: 19px;
-   text-align: left;  
-}
 
 .contenedorreseña1{
-background-color: blue;
-max-width: 20%;
+background-color: rgb(150, 125, 78);
+max-width: 300px;
+border-radius: 0px 0px 20px 20px;
 }
 
 .letrasreseña1{
 color: rgb(227, 227, 255);
 }
 
-.imagendereseña1{
-    width: 5%;
+.imagen1{
+   width: 300px;
+   height: 330px;
+   border-radius: 0px 0px 20px 20px;
 }
+
+.inicio{
+   color: #ffffffc4;
+   text-decoration: none;
+   font-size: 25px;
+   text-align: left; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10%;
+   text-align: center;
+}
+
