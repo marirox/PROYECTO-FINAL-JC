@@ -8,14 +8,14 @@ list-style: none;
 
 
 body{
-    background-color: #fff9f9;
+    background-color: #ffffff;
    margin: 0;}
  
    
    
 header {
    background-color: rgb(22, 22, 22);
-   color: hsl(0, 63%, 95%);
+   color: hsl(199, 85%, 29%);
    padding: 10px;
 }
 
@@ -27,7 +27,7 @@ nav ul li {
 }
    
 nav a {
-   color: #eee7e7c4;
+   color: #ffffffc4;
    text-decoration: none;
    font-size: 25px;
    text-align: left; 
@@ -69,12 +69,38 @@ width: 10%;
 
 }
 
-
-.Carro{
-   width: 15px;
-
+.imagen{
+ width: 320px;
+ height: 340px;
+ object-fit: cover;
+ border-radius: 20px 20px 0px 0px;
+ box-shadow: 0px 0px 5px 0px rgb(22, 22, 22);
+ background-color: black;
+ border-radius: 20px;
 }
 
-.imagen{
-   width: 200px;
+.compra{
+   border-radius:30px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(151, 95, 11);
+   padding: 8px;
+}
+
+.producto{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10%;
+   text-align: center;
+}
+
+.precio{
+   padding: 9px;
+   border-radius: 30px;
+   color: rgb(252, 252, 252);
+   background-color: rgb(179, 146, 97);
+}
+
+.bienvenida{
+   text-align: center;
 }
