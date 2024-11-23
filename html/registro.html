@@ -10,20 +10,21 @@
 </head>
 
 <body class="form">
-    <form id="formulario">
-        <h3>Registro </h3>
+    <form id="formRegistro">
+        <h3>Registro</h3>
         <input type="text" id="nombre" placeholder="Ingresa tus nombres" required>
         <input type="text" id="apellido" placeholder="Ingresa tus apellidos" required>
         <input type="email" id="correo" placeholder="Ingresa tu correo" required>
         <input type="password" id="contrasena" placeholder="Ingresa tu contraseña" required>
-        <select class="obsiones" id="genero" required>
-            <option value="" select disabled>seleccionar su gener</option>
-            <option value="masculino">masculino</option>
-            <option value="femenino">femenino</option>
+        <select class="opciones" id="genero" required>
+            <option value="" disabled selected>Selecciona tu género</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
         </select>
         <button class="boton" type="submit">Registrarse</button> <br>
-        <a class="registrarse" href="logeo.html">¿ya tienes cuenta?</a>
+        <a class="registrarse" href="logeo.html">¿Ya tienes cuenta?</a>
     </form>
+    
 
     <script src="../javascript/registro.js"></script>
 </body>
